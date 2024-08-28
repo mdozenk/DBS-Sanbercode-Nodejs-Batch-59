@@ -5,7 +5,6 @@ const path = require('path');
 const users = require('./data/user.json');
 
 
-
 app.use((req, res, next) => {
     console.log(`${req.method} request for '${req.url}'`);
     next();
